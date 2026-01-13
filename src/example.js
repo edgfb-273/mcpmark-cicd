@@ -1,7 +1,5 @@
-const unusedVar = "test";
 function example() {
-  console.log("This is a test")
-  let anotherUnused = "oops"
-  return "done"
+  const message = 'This is a test';
+  return message;
 }
 example();
